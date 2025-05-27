@@ -828,7 +828,7 @@ spec:
         - --leader-elect
         command:
         - /manager
-        image: manetherenio/cluster-api-ipam-provider-in-cluster:v1.0.1
+        image: docker.io/manetherenio/cluster-api-ipam-provider-in-cluster:v1.0.1
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
